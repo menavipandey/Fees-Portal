@@ -1,0 +1,51 @@
+
+  
+  .fine-imposition-container {
+    position: relative;
+    margin: auto;
+    margin-top: 18vh;
+    width: clamp(350px, 30%, 420px);
+    padding: 20px;
+    background-color: #bdd9e2;
+    border-radius: 35px;
+    box-sizing: content-box;
+    box-shadow: 0 0 20px -8px #28687d;
+  }
+  
+  .fine-imposition-container h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    color:#264752;
+    padding-bottom: 15px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-left: 10.5%;
+    font-size: 18px;
+    color: #243d3e;
+  }
+  
+  .form-group input, .form-group textarea {
+    display: block;
+    width: 77%;
+    margin: 6% auto 2%;
+    height: 30px;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    background-color: #c7e0e8;
+    border-bottom: 2px solid #47787d;
+    font-size: 18px;
+  }
+  
+  .form-group textarea {
+    height: 80px; /* Adjust height as needed */
+    resize: none; /* Prevent resizing */
+  }
+  
+  

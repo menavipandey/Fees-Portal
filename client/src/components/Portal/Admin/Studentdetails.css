@@ -1,0 +1,68 @@
+/* components/Admin/Studentdetails.css */
+
+.student-details-container {
+  position: relative;
+  margin: auto;
+  margin-top: 18vh;
+  width: clamp(350px, 30%, 420px);
+  padding: 20px;
+  background-color: #badfdd;
+  border-radius: 35px;
+  box-sizing: content-box;
+  box-shadow: 0 0 20px -8px #2d8cac;
+}
+
+.student-details-container h2 {
+  text-align: center;
+  font-family: 'Poppins';
+  color: #254652;
+  padding-bottom: 15px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px -5px #28687d;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.form-group label {
+  display: block;
+  margin-left: 10.5%;
+  font-size: 18px;
+  color: #213d46;
+}
+
+.student-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b3cfd9;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.student-info h3 {
+  margin-bottom: 10px;
+}
+
+.fees-table th, .fees-table td, .fines-table th, .fines-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.fees-table th, .fines-table th {
+  background-color: #28687d;
+  font-weight: bold;
+}
+

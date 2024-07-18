@@ -1,0 +1,94 @@
+/* app.css */
+
+/* Common Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  /* background-image: url(./components/Assets/sc_bg.jpg); */
+  background-image: url(./components/Assets/sc_bg-modified.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(199, 199, 199);
+}
+
+button, .back-button, .submit-button {
+  background-color: #398fab;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.1s;
+
+}
+
+button:hover, .back-button:hover, .submit-button:hover {
+  background-color: #255e72;
+  box-shadow: 0 0 20px -2px #1e586b;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="date"] {
+  display: block;
+  width: 77%;
+  margin: 6% auto 2%;
+  height: 30px;
+  padding: 4px;
+  border: none;
+  border-radius: 2px;
+  background-color:#b8d6e0;
+  border-bottom: 2px solid #3f6977;
+  font-size: 18px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="number"]:focus {
+  outline: none;
+  border-bottom: 2px solid #3f7385; /* Change border color on focus */
+}
+
+/* Common Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #1c5061;
+  color: white;
+}
+
+
+/* 
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #4499b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 5px 10px;
+  box-shadow: 0 0 10px -5px #3c87a0;
+  transition: all 0.1s;
+}
+
+.back-button:hover {
+  background-color: #2e677b;
+  box-shadow: 0 0 20px -2px #265868;
+}
+
+.back-button:active {
+  background-color: #377b91;
+  box-shadow: 0 0 10px -7px #285c6d;
+} */

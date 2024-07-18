@@ -1,0 +1,36 @@
+/* FeesStructure.css */
+
+.fees-structure-container {
+  position: relative;
+  margin: auto;
+  margin-top: 18vh;
+  width: clamp(350px, 80%, 1200px);
+  padding: 20px;
+  background-color: #7f9fa3;
+  border-radius: 35px;
+  box-sizing: content-box;
+  box-shadow: 0 0 20px -8px #28687d;
+}
+
+.fees-structure-container h2 {
+  text-align: center;
+  font-family: 'Poppins';
+  color: #065b73;
+  padding-bottom: 15px;
+}
+
+.fees-table th{
+  background-color: #28687d;
+}
+
+/* .input[type="text"]:focus, input[type="number"]:focus{
+  border-radius:12px;
+  background-color:#b8d6e0;
+  border-bottom: 2px solid #3f6977;
+} */
+
+button{
+  padding:9px;
+  width:100px;
+  background-color: #28687d;;
+}

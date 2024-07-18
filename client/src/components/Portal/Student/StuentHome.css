@@ -1,0 +1,9 @@
+.dashboard-image{
+    /* margin-left: 0px; */
+   
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 0;
+    left:0;
+    /* background-image: radial-gradient(rgb(14, 57, 7),rgb(70, 126, 70), rgb(70, 126, 70)); */
+}

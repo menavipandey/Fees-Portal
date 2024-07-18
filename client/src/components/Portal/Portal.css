@@ -1,0 +1,48 @@
+/* components/Portal.css */
+
+.portal {
+    text-align: center;
+}
+
+.portal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 80vh;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+.portal h1{
+    /* color:rgb(118, 217, 251); */
+     color: rgb(204, 107, 107);
+}
+
+
+.no-underline{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent */
+}
+
+
+
+.card {
+    background-color: #383838;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s;
+    width: 200px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 0;
+}

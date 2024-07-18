@@ -1,0 +1,35 @@
+/* components/Admin/Dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+.student-list-container {
+  margin-top: 20px;
+  
+  
+}
+
+.student-table th, .student-table td {
+  background-color: #28687d;
+  color: #ffffff;
+  /* border-radius: 10px; */
+}
+
+.student-table th {
+  background-color: #08364d;
+  color: #d3d3d3;
+}
+
+.student-table tbody tr:nth-child(even) {
+ 
+}
+
+.student-list-container h3 {
+  color:#28687d;
+}

@@ -1,0 +1,23 @@
+/* components/Admin/Admin.css */
+
+.admin-home-container {
+  /* display: flex; */
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.navbar {
+  width: 20%;
+}
+
+.home-cont {
+  width: 100%;
+  text-align: center;
+}
+
+.home-cont h2 {
+  color: #28687d;
+}

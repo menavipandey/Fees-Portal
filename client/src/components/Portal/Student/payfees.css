@@ -1,0 +1,108 @@
+body {
+    /* background-color: #DDF7E3; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .payfees-container {
+    position: relative;
+    margin: auto;
+    margin-top: 18vh;
+    width: clamp(350px, 30%, 420px);
+    padding: 20px;
+    background-color: #bdd9e2;
+    border-radius: 35px;
+    box-sizing: content-box;
+    box-shadow: 0 0 20px -8px #28687d;
+  }
+  
+  .payfees-container h2 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #243b3e;
+    padding-bottom: 15px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-left: 10.5%;
+    font-size: 18px;
+    color: #243a3e;
+  }
+  
+  .form-group input, .form-group select {
+    display: block;
+    width: 77%;
+    margin: 6% auto 2%;
+    height: 30px;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    background-color: #bdd9e2;
+    border-bottom: 2px solid #28687d;
+    font-size: 18px;
+  }
+  
+  .form-group table {
+    width: 90%;
+    margin: 6% auto 2%;
+    border-collapse: collapse;
+    background-color: #c7e8ca;
+    border-radius: 2px;
+    font-size: 18px;
+  }
+  
+  .form-group select{
+    background-color:#c1d6de;
+  }
+
+
+  .form-group th, .form-group td {
+    border: 1px solid #fdfdfd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .form-group th ,   .form-group option {
+    background-color: #21586b;
+    color: white;
+  }
+  .form-group tr{
+    background-color: #a3b9c1;
+  }
+  .form-group option:hover {
+    background-color: #a3b9c1; /* Background color on hover for options */
+  }
+  
+  .submit-button {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    /* background-color: #4a7d47; */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+    /* box-shadow: 0 0 10px -5px #2D5C29; */
+    transition: all 0.1s;
+  }
+  
+  /* .submit-button:hover {
+    background-color: #5D9C59;
+    font-size: 20px;
+    box-shadow: 0 0 20px -2px #2D5C29;
+  } */
+  
+  /* .submit-button:active {
+    background-color: #385e35;
+    font-size: 18px;
+    box-shadow: 0 0 10px -7px #2D5C29;
+  }
+   */

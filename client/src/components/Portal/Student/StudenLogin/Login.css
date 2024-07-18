@@ -1,0 +1,149 @@
+
+
+.loginDiv {
+  position: relative;
+  margin: auto;
+  margin-top: 18vh;
+  width: clamp(350px, 30%, 420px);
+  height: clamp(400px, 50%, 450px);
+  background-color: #badfdd;
+  border-radius: 35px;
+  box-sizing: content-box;
+  box-shadow: 0 0 20px -8px #365962;
+}
+
+
+.loginDiv h1{
+  color:#0a6463;
+}
+
+input[type=text] , input[type=email], input[type=password] {
+  display: block;
+  width: 77%;
+  margin-left: 10.5%;
+  margin-top: 6%;
+  margin-bottom: 2%;
+  min-width: 100px;
+  height: 30px;
+  padding: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border: none;
+  border-radius: 2px;
+  background-color:  #c3e6e4;
+  border-bottom: 2px solid #0b5c7c;
+  font-size: 18px;
+  z-index: 3;
+}
+
+input:focus {
+  outline: none;
+  /* border: none; */
+}
+
+
+
+
+.login {
+  /* position: absolute; */
+  bottom: 32px;
+  left: 5%;
+  width: 90%;
+  padding: 10px;
+  margin:20px;
+  background-color: #3682a0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 18px;
+  box-shadow: 0 0 10px -5px #0b5c7c;
+  transition: all 0.1s;
+}
+
+.login:hover {
+  bottom: 31px;
+  font-size: 20px;
+  background-color: #116a70;
+  transition: all 0.1s;
+  box-shadow: 0 0 20px -2px #0d4448;
+}
+
+.login:active {
+  bottom: 32px;
+  font-size: 18px;
+  background-color: #116a70;
+  transition: all 0.1s;
+  box-shadow: 0 0 10px -7px #0d565b;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 24px;
+  font-family: 'Poppins';
+  padding-bottom: 15px;
+  color: #253e24;
+}
+
+label {
+  /* position: relative;
+  top: -40px; */
+  margin-left: 10.5%;
+  font-size: 18px;
+  z-index: 0;
+  transition: all 0.4s;
+  pointer-events: none;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #C7E8CA;
+  border-radius: 35px;
+  box-shadow: 0 0 25px -8px #116a70;
+  margin: 15% auto;
+  margin-top: 15vh;
+  padding: 20px;
+  border: none;
+  width: clamp(300px, 40%, 800px);
+  height: clamp(350px, 50%, 800px);
+}
+
+span {
+  display: block;
+  text-align: center;
+  color: #116a70;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+#smile {
+  font-size: 80px;
+  margin-top: -15px;
+}
+
+.error {
+  display: none;
+  width: 80%;
+  margin: auto;
+  color: #DF2E38;
+  margin-top: -20px;
+}
+
+.error.visible {
+  display: block;
+}
+
+input[aria-invalid="true"] {
+  border-bottom: 2px solid #DF2E38;
+}
+

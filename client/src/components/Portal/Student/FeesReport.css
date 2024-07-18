@@ -1,0 +1,90 @@
+.fees-report-container {
+    position: relative;
+    margin: auto;
+    margin-top: 18vh;
+    width: clamp(350px, 30%, 420px);
+    padding: 20px;
+    background-color: #bdd9e2;
+    border-radius: 35px;
+    box-sizing: content-box;
+    box-shadow: 0 0 20px -8px #28687d;
+  }
+  
+  .fees-report-container h1 {
+    text-align: center;
+    font-family: 'Poppins';
+    color: #243b3e;
+    padding-bottom: 15px;
+  }
+  
+  .fetch-report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .fetch-report input[type='text'] {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #28687d;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .fetch-report button {
+    background-color: #28687d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .report {
+    background-color: #c7e8ca;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #888888;
+  }
+  
+  .report-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .school-logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .report-header h1 {
+    font-size: 24px;
+    color: #243b3e;
+  }
+  
+  .report-header p {
+    font-size: 14px;
+    color: #243b3e;
+  }
+  
+  .report-body {
+    margin-top: 10px;
+  }
+  
+  .report-row {
+    margin-bottom: 10px;
+  }
+  
+  .report-row p {
+    font-size: 16px;
+    color: #243b3e;
+    margin-bottom: 5px;
+  }
+  

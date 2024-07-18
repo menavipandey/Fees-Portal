@@ -1,0 +1,32 @@
+.card {
+    background-color: #181818;
+    /* background-image: radial-gradient(rgb(255, 255, 255), rgb(164, 41, 205), rgb(7, 0, 9), rgb(0, 0, 0)); */
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(183, 92, 92), rgb(154, 82, 82));
+
+    /* padding: 20px; */
+    /* margin: 10px; */
+    /* border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    height: 200px;
+    width:200px; */
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    
+}
+
+
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.content img{
+    height: 200ox;
+    width: 200px;
+
+}
